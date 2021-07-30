@@ -8,10 +8,13 @@ This repository contains the implementation of a linked list using serial and pa
 	- rw_lock.c 	: 	gcc -g -Wall -o rw_lock rw_lock.c -pthread -lm
 
 2. Run the files using the follwing commands
+```
+
 
 	- serial.c 	:	./serial <n> <m> <mMember> <mInsert> <mDelete> <sample size>
 	- mutex.c 	:	./mutex  <thread_count> <n> <m>  <mMember> <mInsert> <mDelete> <sample size>
 	- rw_lock.c 	:	./rwlock <thread_count> <n> <m> <mMember> <mInsert> <mDelete> <sample size>
+```
 
 - *n is the number of initial unique values in the Link List.
 - *m is number of random Member, Insert, and Delete operations on the link list.
