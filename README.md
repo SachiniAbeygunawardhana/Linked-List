@@ -4,7 +4,7 @@ This repository contains the implementation of a linked list using serial and pa
 1. Compile the files using the following commands.
 
  	- serial.c 	: 	gcc -g -Wall -o serial serial.c
-        - mutex.c 	: 	gcc -g -Wall -o mutex mutex.c -pthread -lm
+ 	- mutex.c 	: 	gcc -g -Wall -o mutex mutex.c -pthread -lm
 	- rw_lock.c 	: 	gcc -g -Wall -o rw_lock rw_lock.c -pthread -lm
 
 2. Run the files using the follwing commands
