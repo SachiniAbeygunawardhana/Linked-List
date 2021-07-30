@@ -9,7 +9,7 @@ This repository contains the implementation of a linked list using serial and pa
 
 2. Run the files using the follwing commands
 
-	- serial.c 	:	**./serial <n> <m> <mMember> <mInsert> <mDelete> <sample size>**
+	- serial.c 	:	./serial <n> <m> <mMember> <mInsert> <mDelete> <sample size>
 	- mutex.c 	:	./mutex  <thread_count> <n> <m>  <mMember> <mInsert> <mDelete> <sample size>
 	- rw_lock.c 	:	./rwlock <thread_count> <n> <m> <mMember> <mInsert> <mDelete> <sample size>
 
