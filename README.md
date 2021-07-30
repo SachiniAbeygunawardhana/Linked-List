@@ -2,13 +2,19 @@
 This repository contains the implementation of a linked list using serial and parallel programming.
 
 1. Compile the files using the following commands.
+
  	a)serial.c 	: 	gcc -g -Wall -o serial serial.c
+	
         b)mutex.c 	: 	gcc -g -Wall -o mutex mutex.c -pthread -lm
+	
 	c)rw_lock.c 	: 	gcc -g -Wall -o rw_lock rw_lock.c -pthread -lm
 
 2. Run the files using the follwing commands
+
 	a) serial.c 	:	./serial <n> <m> <mMember> <mInsert> <mDelete> <sample size>
+	
 	b) mutex.c 	:	./mutex  <thread_count> <n> <m>  <mMember> <mInsert> <mDelete> <sample size>
+	
 	c) rw_lock.c 	:	./rwlock <thread_count> <n> <m> <mMember> <mInsert> <mDelete> <sample size>
 
 *n is the number of initial unique values in the Link List.
